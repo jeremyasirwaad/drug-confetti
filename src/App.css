@@ -1,0 +1,126 @@
+.container{
+  width: 100vw;
+  height: 100svh;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+
+.container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.image{
+  height: auto;
+  width: 300px;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.h1{
+  font-weight: 700;
+  font-size: 30px;
+}
+.h2{
+  font-size: 20px;
+}
+
+.divider{
+  height: 2px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: rgb(201, 201, 201);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* button{
+  width: 300px;
+  background-color: rgb(28, 179, 28);
+  padding: 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+ */
+
+button{
+position: relative;
+height: 60px;
+width: 200px;
+margin: 0 35px;
+margin-bottom: 20px;
+border-radius: 50px;
+border: none;
+outline: none;
+background: #111;
+color: #fff;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 2px;
+cursor: pointer;
+transition: background 0.5s;
+}
+button:first-child{
+background: linear-gradient(90deg, #81afff, #3969e1, #17bb3d, #099c44);
+background-size: 400%;
+}
+button:last-child{
+background: linear-gradient(90deg, #81afff, #3969e1, #17bb3d, #099c44);
+background-size: 400%;
+}
+button:first-child:before,
+button:last-child:before{
+content: '';
+position: absolute;
+background: inherit;
+top: -5px;
+right: -5px;
+bottom: -5px;
+left: -5px;
+border-radius: 50px;
+filter: blur(20px);
+opacity: 0;
+transition: opacity 0.5s;
+}
+button:first-child:before,
+button:last-child:before{
+opacity: 1;
+z-index: -1;
+}
+button{
+z-index: 1;
+animation: glow 8s linear infinite;
+}
+
+@keyframes glow {
+0%{
+  background-position: 0%;
+}
+100%{
+  background-position: 400%;
+}
+}
+
+
+.live{
+  /* background-color: #17bb3d; */
+  /* width: 500px; */
+  padding: 12px;
+  font-weight: 500;
+  font-size: 30px;
+  max-width: 800px;
+}
