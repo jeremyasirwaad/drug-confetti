@@ -20,7 +20,8 @@
 
 .image{
   height: auto;
-  width: 300px;
+  width: 60%;
+  max-width: 300px;
   border-radius: 50%;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -123,4 +124,10 @@ animation: glow 8s linear infinite;
   font-weight: 500;
   font-size: 30px;
   max-width: 800px;
+}
+
+@media (max-width: 768px) {
+  .live {
+    font-size: 22px;
+  }
 }
