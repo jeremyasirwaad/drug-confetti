@@ -26,7 +26,16 @@ function App () {
         </span>
       </div>
 
-      <img src={logo} alt='' className='image' />
+      {applaunched ? (
+        <img src={logo} alt='' className='image' />
+      ) : (
+        <img
+          src='https://media.istockphoto.com/id/1147544807/vector/thumbnail-image-vector-graphic.jpg?s=612x612&w=0&k=20&c=rnCKVbdxqkjlcs3xH87-9gocETqpspHFXu5dIGB4wuM='
+          alt=''
+          className='image'
+        ></img>
+      )}
+
       {!applaunched ? (
         <div className='container2'>
           <div
