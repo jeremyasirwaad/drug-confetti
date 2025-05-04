@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import logo from './tnea_logo.jpg'
+import logo from '../tngasa_logo.jpg'
 import useWindowSize from 'react-use/lib/useWindowSize'
 import Confetti from 'react-confetti'
-import './App.css'
+import '../App.css'
 
 function App () {
   const { width, height } = useWindowSize()
@@ -17,12 +17,12 @@ function App () {
         gravity={0.1}
       />
       <div className='container2'>
-        <span className='h1'>INAUGURATION OF ONLINE REGISTRATION - TNEA'2025</span>
-        <span className='h1'>ஆன்லைன் பதிவு தொடக்க விழா - TNEA'2025</span>
+        <span className='h1'>INAUGURATION OF ONLINE REGISTRATION - TNGASA'2025</span>
+        <span className='h1'>ஆன்லைன் பதிவு தொடக்க விழா - TNGASA'2025</span>
         <div className='divider'></div>
-        <span className='h2'>Welcome to Tamil Nadu Engineering Admissions 2025</span>
+        <span className='h2'>Welcome to Tamil Nadu Government Arts and Science Admissions 2025</span>
         <span className='h2'>
-          தமிழ்நாடு பொறியியல் சேர்க்கை 2025-க்கு வரவேற்கிறோம்
+          தமிழ்நாடு அரசு கலை மற்றும் அறிவியல் சேர்க்கை 2025-க்கு வரவேற்கிறோம்
         </span>
       </div>
 
@@ -63,7 +63,7 @@ function App () {
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
           }}>
             <a 
-              href="https://www.tneaonline.org" 
+              href="https://www.tngasaonline.org" 
               target="_blank" 
               rel="noopener noreferrer" 
               style={{ 
@@ -76,7 +76,7 @@ function App () {
               onMouseOver={(e) => e.target.style.textDecoration = 'underline'}
               onMouseOut={(e) => e.target.style.textDecoration = 'none'}
             >
-              www.tneaonline.org
+              www.tngasaonline.org
             </a>
           </p>
           <p className='live'>
@@ -92,4 +92,4 @@ function App () {
   )
 }
 
-export default App
+export default App 
