@@ -63,7 +63,7 @@ function App () {
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
           }}>
             <a 
-              href="https://www.tngasaonline.org" 
+              href="https://www.tngasa.in" 
               target="_blank" 
               rel="noopener noreferrer" 
               style={{ 
